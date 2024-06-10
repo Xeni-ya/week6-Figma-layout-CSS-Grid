@@ -1,0 +1,55 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1, h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+.navbar {
+}
+.button {
+}
+.main {
+    
+}
+.section__main {
+    background-color: #E7F0FE;
+}
+.icon {
+}
+.section__brands {
+    background-color: #FFFFFF;
+}
+.container {
+}
+.image_brands {
+}
+.section__grid {
+    background-color: #151515;
+    color: #ffffff;
+}
+.grid__container {
+}
+.section__reviews {
+    background-color: #E7F0FE;
+}
+.footer {
+    background-color: #151515;
+    color: #ffffff;
+}
+.item {
+    
+}
+.section__footer {
+    background-color: #1C78FF;
+}
