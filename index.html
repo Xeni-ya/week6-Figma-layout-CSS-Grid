@@ -13,56 +13,76 @@
 </head>
 
 <body>
-
+    <!-- Исходник: https://www.figma.com/design/xGDWbCCidmxkoWhNkhCTHF/Agency1-(Copy)?node-id=1-7&t=TvzWdDad42Nig8vi-0 -->
+    
     <header class="header">
-        <nav class="navbar">
-            <!-- <svg class="icon">
-                <use xlink:href="./assets/logo/sprite#image 1"></use>
-            </svg> -->
-            <img src="./assets/logo/image 1.svg" alt="logo"> 
-            <span>Uidex</span>
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Service</li>
-                <li>Testimonial</li>
-                <li>Team</li>
-                <li>Feature</li>
-            </ul>
-            <button class="button">Contact us</button>
-        </nav>
+        <div class="container">
+            <nav class="navbar">
+                <img src="./assets/logo/image 1.svg" alt="logo" class="logo">
+                <p>Uidex</p>
+                <ul class="menu">
+                    <li class="menu__list">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#">Service</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#">Testimonial</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#">Team</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#">Feature</a>
+                    </li>
+                </ul>
+                <button class="button__nav">
+                    Contact us
+                </button>
+            </nav>
+        </div>
     </header>
 
     <main class="main">
 
-        <section class="section__main">
-            <h1>Creative design agency</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-            <button>Let’s Talk With us</button>
-            <img src="./assets/image/Rectangle 49.png" alt="workflow">
-            <svg class="icon">
-                <use xlink:href="./assets/image/sprite.svg#Group 118"></use>
-            </svg>
+        <section class="section__top">
+            <div class="container">
+                <h1 class="title">Creative design agency</h1>
+                <p class="text__top">
+                    There are many variations of passages of Lorem <br>Ipsum available, but the majority have suffered <br>alteration in some form.
+                </p>
+                <button class="button__top">Let’s Talk With us</button>
+                <img src="./assets/image/Rectangle 49.png" alt="workflow" class="image__top">
+                <svg class="points">
+                    <use xlink:href="./assets/image/sprite.svg#Group 118"></use>
+                </svg>
+            </div>
         </section>
 
         <section class="section__brands">
-            <h2>Trusted by the best brands</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Cursus donec in ut tincidunt sed mattis scelerisque ut.</p>
             <div class="container">
-                <div class="image_brands">
-                    <img src="./assets/image/Automation.svg" alt="Automation">
-                </div>
-                <div class="image_brands">
-                    <img src="./assets/image/minty.svg" alt="minty">
-                </div>
-                <div class="image_brands">
-                    <img src="./assets/image/sitemark.svg" alt="sitemark">
-                </div>
-                <div class="image_brands">
-                    <img src="./assets/image/penta.svg" alt="penta">
-                </div>
-                <div class="image_brands">
-                    <img src="./assets/image/Blossom.svg" alt="Blossom">
+                <h2>Trusted by the best brands</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Cursus donec in ut tincidunt sed mattis scelerisque ut.</p>
+                <div class="container__brands">
+                    <div class="image__brands">
+                        <img src="./assets/image/Automation.svg" alt="Automation">
+                    </div>
+                    <div class="image__brands">
+                        <img src="./assets/image/minty.svg" alt="minty">
+                    </div>
+                    <div class="image__brands">
+                        <img src="./assets/image/sitemark.svg" alt="sitemark">
+                    </div>
+                    <div class="image__brands">
+                        <img src="./assets/image/penta.svg" alt="penta">
+                    </div>
+                    <div class="image__brands">
+                        <img src="./assets/image/Blossom.svg" alt="Blossom">
+                    </div>
                 </div>
             </div>
         </section>
@@ -141,7 +161,7 @@
             <h3>Subscribe Newslatter</h3>
             <p>Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo</p>
             <input type="email" name="email" id="email" placeholder="Enter your mail">
-            <button>
+            <button class="button__footer">
                 <img src="./assets/image/ri_send-plane-fill.svg" alt="plane">
             </button>
         </div>
