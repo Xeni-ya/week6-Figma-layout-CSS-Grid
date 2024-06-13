@@ -29,7 +29,7 @@ body {
     justify-self: center;
 }
 
-.navbar p {
+.company  {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 24px;
@@ -152,6 +152,7 @@ a:hover {
     width: 611px;
     height: 489px;
     grid-area: image;
+    z-index: 1;
 }
 
 .points {
@@ -159,7 +160,6 @@ a:hover {
     position: relative;
     bottom: 150px;
     left: 280px;
-    z-index: 1;
 }
 
 /* секция с брендами */
@@ -302,6 +302,7 @@ a:hover {
 
 .section__reviews {
     background-color: #E7F0FE;
+    padding-top: 120px;
 }
 
 .reviews__container {
@@ -318,6 +319,7 @@ a:hover {
     line-height: 96%;
     text-align: center;
     color: #151515;
+    margin: 0;
 }
 
 .text__reviews {
@@ -345,13 +347,14 @@ a:hover {
     height: 341px;
     box-shadow: 0 4px 200px 0 rgba(0, 0, 0, 0.12);
     background: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .quotation__marks {
     position: relative;
     top: 30px;
     right: 10px;
-    z-index: 1;
 }
 
 .review-1 p, .review-2 p {
